@@ -1,0 +1,20 @@
+.container {
+    width:1440px;
+    height: auto;
+    padding:24px 156px;
+    margin: 0 auto;
+}
+
+.gallery {
+
+ display:flex;
+ flex-wrap: wrap;
+ row-gap: 24px;
+    column-gap: 24px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 200px;
+  height: auto;
+}
