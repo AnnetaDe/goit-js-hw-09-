@@ -88,20 +88,9 @@ gallery.insertAdjacentHTML("afterbegin", createGalleryItem.join(""));
 
 const galleryImages = document.querySelectorAll(".gallery-image");
 
-// const lightbox = basicLightbox.create(
-//   `<div class="modal">
-//       <img class= "modal-img"/>
-//     </div>`,
-//   {
-//     closable: true
-//   }
-// );
+const lightbox = new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionDelay: 250
+});
 
-// galleryImages.forEach(image => {
-//   image.addEventListener("click", event => {
-//     event.preventDefault();
-//     lightbox.element().querySelector(".modal-img").src = image.dataset.source;
-//     lightbox.element().querySelector(".modal-img").alt = image.alt;
-//     lightbox.show();
-//   });
-// });
+

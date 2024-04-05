@@ -1,20 +1,22 @@
 .container {
-    width:1440px;
-    height: auto;
-    padding:24px 156px;
-    margin: 0 auto;
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
 }
-
 .gallery {
-
- display:flex;
- flex-wrap: wrap;
- row-gap: 24px;
-    column-gap: 24px;
+  padding: 100px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
 }
 
 .gallery img {
   width: 360px;
   height: 200px;
-  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
