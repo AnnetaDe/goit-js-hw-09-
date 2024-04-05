@@ -1,3 +1,4 @@
+export * from "./1-gallery.js";
 // Описаний в документації
 import SimpleLightbox from "simplelightbox";
 // Додатковий імпорт стилів

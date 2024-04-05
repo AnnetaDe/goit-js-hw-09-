@@ -1,3 +1,4 @@
+export * from "./1-gallery.js";
 const formFeedback = document.querySelector(".feedback-form");
 const button = document.querySelector("button[type='submit']");
 button.className = "button";
